@@ -1,0 +1,762 @@
+
+
+
+import aboutImg from "../assets/images/1.jpg";
+import im2 from "../assets/images/2.jpg";
+import im3 from "../assets/images/3.jpg";
+import im4 from "../assets/images/4.jpg";
+import im5 from "../assets/images/5.jpg";
+import im6 from "../assets/images/6.jpg";
+import im7 from "../assets/images/7.jpg";
+import im8 from "../assets/images/8.jpg";
+import im9 from "../assets/images/9.jpg";
+import im10 from "../assets/images/10.jpg";
+import im11 from "../assets/images/11.jpg";
+import im12 from "../assets/images/12.jpg";
+import im13 from "../assets/images/13.jpg";
+import im14 from "../assets/images/14.jpg";
+import im15 from "../assets/images/15.jpg";
+import im16 from "../assets/images/16.jpg";
+import im17 from "../assets/images/17.jpg";
+import im18 from "../assets/images/18.jpg";
+import im19 from "../assets/images/19.jpg";
+import im20 from "../assets/images/20.jpg";
+import im21 from "../assets/images/21.jpg";
+import im22 from "../assets/images/22.jpg";
+import im23 from "../assets/images/23.jpg";
+import im24 from "../assets/images/24.png";
+import im25 from "../assets/images/25.jpg";
+import im26 from "../assets/images/26.jpg";
+import im27 from "../assets/images/27.jpg";
+import im28 from "../assets/images/28.jpg";
+import im29 from "../assets/images/29.jpg";
+import im30 from "../assets/images/30.jpg";
+import im31 from "../assets/images/31.png";
+import im32 from "../assets/images/32.jpeg";
+import im33 from "../assets/images/33.jpeg";
+import im34 from "../assets/images/34.jpeg";
+import im35 from "../assets/images/35.jpeg";
+import im36 from "../assets/images/36.jpeg";
+import im37 from "../assets/images/37.jpeg";
+import im38 from "../assets/images/38.jpeg";
+import im39 from "../assets/images/39.jpg";
+import im40 from "../assets/images/40.jpg";
+import im41 from "../assets/images/41.jpg";
+import im42 from "../assets/images/42.jpeg";
+import im43 from "../assets/images/43.jpeg";
+import im44 from "../assets/images/44.jpeg";
+import im45 from "../assets/images/45.jpeg";
+import im46 from "../assets/images/46.jpeg";
+import im47 from "../assets/images/47.jpeg";
+import im48 from "../assets/images/48.jpeg";
+import im49 from "../assets/images/49.jpeg";
+import im50 from "../assets/images/50.jpeg";
+import im51 from "../assets/images/51.jpeg";
+import im52 from "../assets/images/52.jpeg";
+import im53 from "../assets/images/53.jpg";
+import im54 from "../assets/images/54.jpg";
+import im55 from "../assets/images/55.jpg";
+import im56 from "../assets/images/56.jpg";
+import im57 from "../assets/images/57.jpeg";
+import im58 from "../assets/images/58.jpeg";
+import im59 from "../assets/images/59.jpeg";
+import im60 from "../assets/images/60.jpeg";
+import im61 from "../assets/images/61.jpeg";
+import im62 from "../assets/images/62.jpg";
+import im63 from "../assets/images/63.jpeg";
+import im64 from "../assets/images/64.jpeg";
+import im65 from "../assets/images/65.jpeg";
+import im66 from "../assets/images/66.jpeg";
+import im67 from "../assets/images/67.jpeg";
+import im68 from "../assets/images/68.jpeg";
+
+
+const tours = [
+    {
+      id: "01",
+      title: "Charminar",
+      city: "Hyderabad",
+      price: 7000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:aboutImg,
+    },
+    {
+      id: "02",
+      title: "Golconda Fort",
+      city: "Hyderabad",
+      price: 8000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im2,
+    },
+    {
+      id: "03",
+      title: "Salar Jung Museum",
+      city: "Hyderabad",
+      price: 9000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im3,
+    },
+    {
+      id: "04",
+      title: "Hussain Sagar Lake",
+      city: "Hyderabad",
+      price: 9000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+     
+      featured: true,
+      photo:im4,
+    },
+    {
+      id: "05",
+      title: "Ramoji film City",
+      city: "Hyderabad",
+      price: 10000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im5,
+    },
+    {
+      id: "06",
+      title: "Nehru Zoological Park",
+      city: "Hyderabad",
+      price: 8000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im6,
+    },
+    {
+      id: "07",
+      title: "Birla Mandir",
+      city: "Hyderabad",
+      price: 9000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im7,
+    },
+    {
+      id: "08",
+      title: "Munnar",
+      city: "Kerala",
+      price: 12000,
+      maxGroupSize: 4,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im8,
+    },
+    {
+      id: "09",
+      title: "Alleppey",
+      city: "Hyderabad",
+      price: 12500,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im9,
+    },
+    {
+      id: "10",
+      title: "Mahabalipuram",
+      city: "Tamil Nadu",
+      price: 15000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im10,
+    },
+    {
+      id: "11",
+      title: "Mysore Palace ,Mysuru",
+      city: "Karnataka",
+      price: 12000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im11,
+    },
+    {
+      id: "12",
+      title: "Hampi",
+      city: "Karnataka",
+      price: 10500,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im12,
+    },
+    {
+      id: "13",
+      title: "Ajanta and Ellora Caves, Aurangabad",
+      city: "Maharastra",
+      price: 12500,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im13,
+    },
+    {
+      id: "14",
+      title: "Gateway of India,Mumbai",
+      city: "Maharastra",
+      price: 10000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im14,
+    },
+    {
+      id: "15",
+      title: "Tirupati",
+      city: "Andhra Pradesh",
+      price: 9000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im15,
+    },
+    {
+      id: "16",
+      title: "Araku Valley",
+      city: "Andhra Pradesh",
+      price: 12500,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im16,
+    },
+    {
+      id: "17",
+      title: "Baga Beach",
+      city: "Goa",
+      price: 10000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im17,
+    },
+    {
+      id: "18",
+      title: "Basilica of Bom Jesus",
+      city: "Goa",
+      price: 9000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im18,
+    },
+    {
+      id: "19",
+      title: "Statue of Unity",
+      city: "Gujarat",
+      price: 8000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im19,
+    },{
+      id: "20",
+      title: "Gir National Park",
+      city: "Gujarat",
+      price: 13000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im20,
+    },
+    {
+      id: "21",
+      title: "Chitrakote Waterfalls,Jagdalpur",
+      city: "Chhattisgarh",
+      price: 8000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im21,
+    },
+    {
+      id: "22",
+      title: "Kanger Valley National Park",
+      city: "Chhattisgarh",
+      price: 9000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im22,
+    },
+    {
+      id: "23",
+      title: "Jagannath Temple",
+      city: "Odisha",
+      price: 12000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im23,
+    },
+    {
+      id: "24",
+      title: "Konark sun Temple",
+      city: "Odisha",
+      price: 13500,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im24,
+    },
+    {
+      id: "25",
+      title: "",
+      city: "",
+      price: 12500,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im25,
+    },
+    {
+      id: "26",
+      title: "Darjeeling",
+      city: "West Bengal",
+      price: 14000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im26,
+    },
+    {
+      id: "27",
+      title: "Sundarbans",
+      city: "West Bengal",
+      price: 12500,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im27,
+    },
+    {
+      id: "28",
+      title: "Netarhat",
+      city: "Jharkand",
+      price: 13500,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im28,
+    },
+    {
+      id: "29",
+      title: "Jubilee Park,Jamshedpur",
+      city: "Jharkand",
+      price: 14000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im29,
+    },
+    {
+      id: "30",
+      title: "Bodh Gaya",
+      city: "Bihar",
+      price: 15000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im30,
+    },
+    {
+      id: "31",
+      title: "Nalanda",
+      city: "Bihar",
+      price: 12500,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im31,
+    },
+    {
+      id: "32",
+      title: "Kakathiya Gate",
+      city: "Warangal",
+      price: 7000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im32,
+    },
+    {
+      id: "33",
+      title: "Medak Cathedral",
+      city: "Medak",
+      price: 6000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im33,
+    },
+    {
+      id: "34",
+      title: "Tawang",
+      city: "Arunachal Pradesh",
+      price: 12500,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im34,
+    },
+    {
+      id: "35",
+      title: "Tsomgo Lake",
+      city: "Sikkim",
+      price: 12500,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im35,
+    },
+    
+        {
+          id: "36",
+          title: "Shanti Stupa",
+          city: "Ladakh",
+          price: 1200,
+          maxGroupSize: 12,
+          desc: "this is the description",
+          rating: 4.7,
+          photo:im36,
+        },
+        {
+          id: "37",
+          title: "Pangong Lake",
+          city: "Jammu and Kashmir",
+          price: 1000,
+          maxGroupSize: 8,
+          desc: "this is the description",
+          rating: 4.8,
+          photo:im37,
+        },
+        {
+          id: "38",
+          title: "RedFort",
+          city: "Delhi",
+          price: 1250,
+          maxGroupSize: 8,
+          desc: "this is the description",
+          rating: 4.5,
+          photo:im38,
+        },
+        {
+          id: "39",
+          title: "Lotus Temple",
+          city: "Delhi",
+          price: 1999,
+          maxGroupSize: 10,
+          desc: "this is the description",
+          rating: 4.5,
+          photo:im39,
+        },
+        {
+          id: "40",
+          title: "Dalhousie",
+          city: "Himachal Pradesh",
+          price: 1599,
+          maxGroupSize: 8,
+          desc: "this is the description",
+          rating: 4.5,
+          photo:im40,
+        },
+        {
+          id: "41",
+          title: "Manali",
+          city: "Himachal Pradesh",
+          price: 10000,
+          maxGroupSize: 10,
+          desc: "this is the description",
+          rating: 4.7,
+          photo:im41,
+        },
+        {
+          id: "42",
+          title: "Varanasi",
+          city: "Uttar Pradesh",
+          price: 1999,
+          maxGroupSize: 12,
+          desc: "this is the description",
+          rating: 4.8,
+          photo:im42,
+        },
+        {
+          id: "43",
+          title: "Taj Mahal",
+          city: "Uttar Pradesh",
+          price: 1000,
+          maxGroupSize: 14,
+          desc: "this is the description",
+          rating: 4.6,
+          photo:im43,
+        },
+        {
+          id: "44",
+          title: "Ranthambore National Park",
+          city: "Rajasthan",
+          price: 2179, // Fixed price formatting
+          maxGroupSize: 12,
+          desc: "this is the description",
+          rating: 4.5,
+          photo:im44,
+        },
+        {
+          id: "45",
+          title: "Lake Pichola",
+          city: "Rajasthan",
+          price: 1990,
+          maxGroupSize: 10,
+          desc: "this is the description",
+          rating: 4.6,
+          photo:im45,
+        },
+        {
+          id: "46",
+          title: "India Gate",
+          city: "Delhi",
+          price: 1900,
+          maxGroupSize: 12,
+          desc: "this is the description",
+          rating: 4.6,
+          photo:im46,
+        },
+        {
+          id: "47",
+          title: "Sri Mahakaleshwar Jyotirlinga Temple",
+          city: "Madhya Pradesh",
+          price: 1000,
+          maxGroupSize: 12,
+          desc: "this is the description",
+          rating: 4.8,
+          photo:im47,
+        },
+        {
+          id: "48",
+          title: "Panna National Park",
+          city: "Madhya Pradesh",
+          price: 1499,
+          maxGroupSize: 10,
+          desc: "this is the description",
+          rating: 4.5,
+          photo:im48,
+        },
+        {
+          id: "49",
+          title: "Brahma Sarovar",
+          city: "Haryana",
+          price: 1000,
+          maxGroupSize: 8,
+          desc: "this is the description",
+          rating: 4.7,
+          photo:im49,
+        },
+        {
+          id: "50",
+          title: "Yadavindra Gardens",
+          city: "Haryana",
+          price: 1200,
+          maxGroupSize: 10,
+          desc: "this is the description",
+          rating: 4.8,
+          photo:im50,
+        },
+        {
+          id: "51",
+          title: "Golden Temple",
+          city: "Punjab",
+          price: 1500,
+          maxGroupSize: 8,
+          desc: "this is the description",
+          rating: 4.9,
+          photo:im51,
+        },
+        {
+          id: "52",
+          title: "Jallianwala Bagh",
+          city: "Punjab",
+          price: 1999,
+          maxGroupSize: 12,
+          desc: "this is the description",
+          rating: 4.8,
+          photo:im52,
+        },
+        {
+          id: "53",
+          title: "Valley of Flowers National Park",
+          city: "Uttarakhand",
+          price: 1600,
+          maxGroupSize: 8,
+          desc: "this is the description",
+          rating: 4.8,
+          photo:im53,
+        },
+        {
+          id: "54",
+          title: "Rishikesh",
+          city: "Uttarakhand",
+          price: 1959,
+          maxGroupSize: 10,
+          desc: "this is the description",
+          rating: 4.8,
+          photo:im54,
+        },
+        {
+          id: "55",
+          title: "Elephant Falls",
+          city: "Meghalaya",
+          price: 1555,
+          maxGroupSize: 8,
+          desc: "this is the description",
+          rating: 4.5,
+          photo:im55,
+        },
+        {
+          id: "56",
+          title: "World's Lake",
+          city: "Meghalaya",
+          price: 1500,
+          maxGroupSize: 12,
+          desc: "this is the description",
+          rating: 4.7,
+          photo:im56,
+        },
+        {
+          id: "57",
+          title: "Dzukoku Valley",
+          city: "Manipur",
+          price: 1000,
+          maxGroupSize: 12,
+          desc: "this is the description",
+          rating: 4.5,
+          photo:im57,
+        },
+        {
+          id: "58",
+          title: "RKCS Museum",
+          city: "Manipur",
+          price: 10000,
+          maxGroupSize: 10,
+          desc: "this is the description",
+          rating: 5,
+          photo:im58,
+        },
+        {
+          id: "59",
+          title: "Reiek",
+          city: "Mizoram",
+          price: 1200,
+          maxGroupSize: 8,
+          desc: "this is the description",
+          rating: 4.6,
+          photo:im59,
+        },
+        {
+          id: "60",
+          title: "Tuirilau Falls",
+          city: "Mizoram",
+          price: 1800,
+          maxGroupSize: 12,
+          desc: "this is the description",
+          rating: 5,
+          photo:im60,
+        },
+      
+      
+    {
+      id: "61",
+      title: "Kaziranga National Park",
+      city: "Assam",
+      price: 16000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im61,
+    },
+    {
+      id: "62",
+      title: "Majuli Island",
+      city: "Assam",
+      price: 13000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im62,
+    },
+    {
+      id: "63",
+      title: "Kohima",
+      city: "Nagaland",
+      price: 15000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im63,
+    },
+    {
+      id: "64",
+      title: "Mokokchung",
+      city: "Nagaland",
+      price: 14000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im64,
+    },
+    {
+      id: "65",
+      title: "Nathula Pass",
+      city: "Sikkim",
+      price: 10000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im65,
+    },
+    {
+      id: "66",
+      title: "Ziro Valley",
+      city: "Arunachal Pradesh",
+      price: 11000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im66,
+    },
+    {
+      id: "67",
+      title: "Ujjayanta palace",
+      city: "Tripura",
+      price: 12000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im67,
+    },
+    {
+      id: "68",
+      title: "Neermahal",
+      city: "Tripura",
+      price: 13000,
+      maxGroupSize: 3,
+      desc: "this is the description",
+      Rating: 4.5,
+      photo:im68,
+    },
+    
+  ];
+  
+  export default tours;
